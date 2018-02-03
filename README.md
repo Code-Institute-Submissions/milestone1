@@ -4,6 +4,7 @@ Phil Surgenor - Milestone Project 1
 <br>
 
 ## User Centric Frontend Development
+[visit the project website here](https://philsurgenor.github.io/milestone1/)
 
 
 For this project, I decided to redesign a website for a charity where my father works.
