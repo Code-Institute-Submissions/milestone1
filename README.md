@@ -27,9 +27,9 @@ The main thing to do was make this site accessible to as many people across as m
 #### Balsamiq Mockups
 
 The first task was to go through the old website and do a content audit, writing down all the main parts of the site an finally creating a simple sitemap to work from.
-I have included the sitemap.pdf file in the root folder.
+I have included the sitemap.pdf file in the wireframes folder.
 
-I have also included wireframe mockups of the home page and programmes page in pdf format in the root folder. In each of these files you will find wireframes
+I have also included wireframe mockups of the home page and programmes page in pdf format in the wireframes folder. In each of these files you will find wireframes
 designed for mobile, tablets in portrait, tablets in landscape and desktops.
 
 I choose these two pages as they were the most complicated and I wanted to be sure my ideas would work on all devices before starting development.
