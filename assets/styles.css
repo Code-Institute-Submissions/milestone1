@@ -1,4 +1,4 @@
-
+/*GLOBAL STYLES*/
 body {
     background-color: #f6f5f5;
     color: #555555;
@@ -43,10 +43,9 @@ a.basic-link:hover, a.basic-link:active {
 
 .navbar {
 	background: #650934;
-	/*padding:0 15px 0 15px;*/
 }
 
-a.navbar-brand {
+.navbar-brand {
     color: white;
 }
 
@@ -54,6 +53,8 @@ a.navbar-brand {
     border-color: rgb(255,255,255);
 }
 
+
+/*I had to search for solution to change colour of toggler. Solution was found on codepen*/
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -72,6 +73,17 @@ a.navbar-brand {
 }
 
 
+@media (min-width: 992px) {
+    .navbar {
+        padding:0 15px 0 15px;
+    }
+    
+    .navbar-nav {
+        padding: 0;
+    }
+}
+
+
 
 /*INDEX*/
 
@@ -82,8 +94,32 @@ a.navbar-brand {
 }
 
 #hero p {
-    margin-top:10px;
-    font-size:1.3em;
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+
+@media (min-width: 576px) {
+    #hero img {
+        width: 50%;
+    }
+}
+
+
+@media (min-width: 768px) {
+    #hero {
+        padding-bottom: 30px;
+    }
+    
+    #hero p {
+        margin-top: 50px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    #hero {
+        padding-top: 40px;
+    }
 }
 
 
@@ -92,13 +128,102 @@ a.navbar-brand {
     background-color:white;
 }
 
+@media (min-width: 576px) {
+    .contact-section p {
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 0.93em;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .contact-section p  {
+        margin-top: 5px;
+        font-size: 1.2em;
+    }
+}
+
+
+
+/*welcome*/
+@media (min-width: 576px) {
+    #welcome .centered-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media (min-width: 768px) {
+    #welcome {
+        margin-top: 40px;
+    }
+    
+    #welcome .centered-list {
+        font-size: 1.3em;
+    }
+    
+    #welcome img {
+        width: 80%;
+    }
+    
+    #welcome p:first-child {
+        padding-bottom: 20px;
+    }
+    
+    #welcome p:last-child {
+        padding-top: 20px;
+    }
+}
+
+
 
 /*page-intros*/
+
 .page-intro {
     background-color: white;
-    margin-bottom: 20px;
-    padding: 15px 15px;
+    margin-bottom: 15px;
+    padding: 15px 10px;
     -webkit-box-shadow: 7px 9px 17px -6px rgba(0,0,0,0.43);
     -moz-box-shadow: 7px 9px 17px -6px rgba(0,0,0,0.43);
     box-shadow: 7px 9px 17px -6px rgba(0,0,0,0.43);
+    flex: 0 1;
+}
+
+
+@media (min-width: 576px) {
+    .page-intro h2{
+        font-size: 1.5em;
+    }
+    
+    #advice, #pastoral {
+        min-height: 300px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    
+    #advice, #pastoral {
+        min-height: 250px;
+    }
+}
+
+
+
+/*HOW TO FIND US*/
+#find-us {
+    margin-top: 50px;
+}
+
+#find-us iframe {
+    margin-top: 30px;
+}
+
+#address {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
 }
