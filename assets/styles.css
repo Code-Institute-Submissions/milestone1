@@ -412,6 +412,10 @@ a.basic-link:hover, a.basic-link:active {
     border-radius: 5px;
 }
 
+.room, .hourly, .daily {
+    border-radius: 5px;
+}
+
 #equipment {
     margin-top: 20px;
 }
