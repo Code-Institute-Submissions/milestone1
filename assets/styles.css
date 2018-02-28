@@ -367,7 +367,7 @@ a.basic-link:hover, a.basic-link:active {
 
 /*ROOM HIRE*/
 #rooms {
-    background: url('images/rooms/room-hire-bg.png')center center fixed repeat;
+    background: url("images/rooms/room_hire_bg.jpg") center center fixed repeat;
 }
 
 
