@@ -243,7 +243,7 @@ a.basic-link:hover, a.basic-link:active {
 
 
 /*How to find us*/
-#find-us {
+.find-us {
     margin-top: 50px;
     padding: 20px;
     background-color: white;
@@ -252,11 +252,11 @@ a.basic-link:hover, a.basic-link:active {
     border-radius: 5px;
 }
 
-#find-us iframe {
+.find-us iframe {
     margin-top: 30px;
 }
 
-#address {
+.address {
     display: flex;
     align-items: center;
     font-size: 2em;
@@ -405,7 +405,7 @@ a.basic-link:hover, a.basic-link:active {
     padding: 20px 20px;
 }
 
-.rooms-table {
+.custom-table {
     background-color: white;
     padding: 20px;
     border: solid 4px #650934;
@@ -442,4 +442,16 @@ a.basic-link:hover, a.basic-link:active {
     .room img {
         width: auto;
     }
+}
+
+
+/*CONTACT*/
+
+
+#contact-info .col-12 {
+    margin-top: 50px;
+}
+
+#contact-map .find-us {
+    margin-top: 0px;
 }
