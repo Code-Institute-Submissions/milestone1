@@ -73,7 +73,7 @@
                     <p>If you feel you need support please contact us.</p>
                 </div>
                 <div class="col-8 offset-4 col-sm-4 offset-sm-0">
-                    <a href="/" class="btn btn-info">Contact Us</a>
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#contact-modal">Contact Us</button>
                 </div>
             </div>
         </div>
@@ -120,6 +120,78 @@
             </div>
         </div>
     </footer>
+    
+    <!-- contact-modal -->
+    <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contactUs" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-center">Contact Us</h3>
+                    
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div><!-- modal-header -->
+                
+                <div class="modal-body">
+                    <form role="form" id="contact-form">
+				        <div class="form-group">
+					        <label class="sr-only" for="contact-name">Your Name</label>
+					        <input type="text" class="form-control" id="contact-name" name="name" placeholder="Your Name" required>
+				        </div><!--/Form Group-->
+							
+				        <div class="form-group">
+					        <label class="sr-only" for="contact-email">Email Address</label>
+					        <input type="email" class="form-control" id="contact-email" name="email" placeholder="Email Address" required>
+				        </div><!--/Form Group-->
+							
+				        <div class="form-group">
+					        <label class="sr-only" for="contact-tel">Telephone Number</label>
+					        <input type="text" class="form-control" id="contact-tel" name="tel" placeholder="Tel">
+				        </div><!--/Form Group-->
+							
+                        <p>Please select reason&frasl;s you wish to be contacted</p>
+                        
+				        <div class="checkbox">
+					        <label>
+						        <input type="checkbox" id="pastoral-care" name="pastoral-care" value="YES"> Pastoral Care
+					        </label>
+  				        </div>
+							
+				        <div class="checkbox">
+				            <label>
+						        <input type="checkbox" id="advice-services" name="advice-services" value="YES"> Advice Services
+					        </label>
+  				        </div>
+							
+				        <div class="checkbox">
+					        <label>
+						        <input type="checkbox" id="room-hire" name="room-hire" value="YES"> Room Hire
+					        </label>
+  				        </div>
+							
+				        <div class="checkbox">
+					        <label>
+						        <input type="checkbox" id="other-programmes" name="other-programmes" value="YES"> Other Programmes
+					        </label>
+  				        </div>
+							
+		                <div class="form-group">
+		                    <label class="sr-only" for="message">Message</label>
+				            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Message"></textarea>
+  				        </div>
+				
+				        <input type="submit" name="submit" class="btn btn-success" value="Send">
+		            </form>
+                </div><!-- modal-body -->
+          
+                <div class="modal-footer">
+                    <a href="contact.html" class="btn btn-info">More Contact Info...</a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div><!-- modal-footer -->
+            </div><!-- modal-content -->
+        </div><!-- modal-dialogue -->
+    </div><!-- contact-modal -->
     
 
 
