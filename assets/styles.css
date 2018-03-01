@@ -455,3 +455,17 @@ a.basic-link:hover, a.basic-link:active {
 #contact-map .find-us {
     margin-top: 0px;
 }
+
+
+@media (max-width: 350px) {
+    .hide {
+        display: none;
+    }
+}
+
+
+@media (max-width: 576px) {
+    #contact-info .custom-table {
+        padding: 20px 0;
+    }
+}
