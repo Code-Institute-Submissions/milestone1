@@ -47,6 +47,7 @@ a.basic-link:hover, a.basic-link:active {
 }
 
 
+
 /*NAVIGATION*/
 
 .navbar {
@@ -268,7 +269,7 @@ a.basic-link:hover, a.basic-link:active {
 /*ABOUT US*/
 
 #about img {
-    padding: 10px;
+    
 }
 
 #staff .col-12 {
@@ -326,14 +327,156 @@ a.basic-link:hover, a.basic-link:active {
 }
 
 
+
+/*PROGRAMMES*/
+#container {
+    max-height: 100vh;
+}
+
+.programmes {
+    margin-top: 0;
+    padding-top: 0;
+    position: relative;
+    min-height: calc(100vh - 130px)
+}
+
+
+.programmes h1 {
+    font-size: 2.8em;
+}
+
+.programmes .page-intro {
+    margin-right: 0;
+}
+
+.programmes .col-lg-4 {
+    padding-left:0;
+    padding-right: 0;
+}
+
+.programmes .container .col-lg-8 {
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+.link {
+    background: linear-gradient(#800d42, #650934);
+    background-color: #650934;
+    min-height: 120px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.link a:link, .link a:visited {
+    color: white;
+    transition: ease 0.1s;
+}
+
+.link a:hover, .link a:active {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0px 0px 17px rgba(255,255,255,0.4); 
+    transform: translate(2px, 2px);
+    transition: ease 0.1s;
+}
+
+.programme-link-active {
+    background: linear-gradient(#a61156, #890945);
+    text-shadow: 0px 0px 17px rgba(255,255,255,0.4); 
+}
+
+.programmes-btn {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(#079AB1, #1D8798);
+    border-radius: 0;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.9);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.9);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.9);
+}
+
+
+@media (min-width: 576px) {
+    .link {
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 768px) {
+    .link {
+        display: block;
+        text-align: left;
+        padding: 10px 15px;
+    }
+    
+    .link .col-3 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .programmes .container {
+        margin-top: 50px;
+    }
+    
+    .programmes .container .col-lg-8 {
+        margin-top: 50px;
+        padding: 0 50px;
+    }
+    
+    .link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: sticky;
+        
+    }
+    
+    #link-1 {
+        top: 70px;
+    }
+    
+    #link-2 {
+        top: 203px;
+    }
+    
+    #link-3 {
+        top: 333px;
+    }
+    
+    #link-4 {
+        top: 466px;
+    }
+}
+
+/*education&training*/
+@media (min-width: 992px) {
+    .programme-section .container .col-lg-8 {
+        margin-top: 0px;
+    }
+
+
 /*PASTORAL CARE*/
 .article-img {
     margin: 30px 0;
+    padding: 10px;
+    -webkit-box-shadow: 2px 2px 10px -1px rgba(0,0,0,1);
+    -moz-box-shadow: 2px 2px 10px -1px rgba(0,0,0,1);
+    box-shadow: 2px 2px 10px -1px rgba(0,0,0,1);
 }
 
 .support-worker {
     margin-bottom: 20px;
 }
+
 
 @media (min-width: 576px) {
     .article-img {
