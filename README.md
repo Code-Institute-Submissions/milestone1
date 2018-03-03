@@ -42,6 +42,7 @@ I chose these two pages as they were the most complicated and I wanted to be sur
 I wanted to keep the HTML as structured and logical as possible so that the browser would render it properly. Using semantic tags really helped with this, for example, \<nav>, \<section>, \<header>, \<footer> etc.
 
 <br>
+
 #### CSS 3
 
 I used an external style sheet to keep the HTML and CSS seperate. Through the use of classes I was able to reuse some styles for simial components, for example I used .article-img for most of the main images.
@@ -51,6 +52,7 @@ The main styling techniques I used were: linear gradients, box shadow, text shad
 I was unable to find a way on my own to style the nav-toggler as it was an SVG. I googled it and got the answer on codepen. I have left a comment in my style sheet refering to this.
 
 <br>
+
 #### Bootstrap 4
 
 As Bootstrap 4 was out of beta, I decided to use it. I used it primarily for its responsive capabilities and its mobile first ethos.
