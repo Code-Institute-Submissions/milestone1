@@ -85,3 +85,8 @@ When I ran my code through the W3C HTML validator, I realised I was using the \<
 
 After submitting my site to the W3C CSS Validator, I realised for the box shadow property I had used vendor prefixes, The validator showed that they were not needed so I deleted them.
 
+<br>
+
+## Deployment
+
+To deploy this site to GitHub Pages, I pushed all my files to this GitHub repository. I then selected settings, found the GitHub Pages section, made sure the source was the master branch and saved it. I then tested the site again to make sure it warked exactly as it did in the development stage.
