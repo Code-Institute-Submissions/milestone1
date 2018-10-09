@@ -14,7 +14,8 @@ The main purpose for the website is to give the user an informed insight into th
 The original website was made a long time ago and needs updating. As you can see it isn't responsive, user friendly or aesthetically pleasing.
 
 <br>
-## UX
+
+## Technologies
 
 When starting this project I looked at the original website to gain an understanding of their strategy. It was at this time I conducted a content audit. Now I had a clear strategy and a complete overview of the content needed, I could start to scope ot the project.
 
@@ -67,7 +68,7 @@ As Bootstrap 4 was out of beta, I decided to use it. I used it primarily for its
 
 <br>
 
-## Technologies
+## Testing
 
 #### Manual Testing
 
