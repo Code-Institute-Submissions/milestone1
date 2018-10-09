@@ -67,7 +67,7 @@ As Bootstrap 4 was out of beta, I decided to use it. I used it primarily for its
 
 <br>
 
-## Testing
+## Technologies
 
 #### Manual Testing
 
