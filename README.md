@@ -10,9 +10,17 @@ Phil Surgenor - Milestone Project 1
 For this project, I decided to redesign a website for a charity where my father works.
 You can view the original website [here](http://www.vinecentre.org).
 
+The main purpose for the website is to give the user an informed insight into the activities and services provided by the charity, 'The Vine Centre'.
 The original website was made a long time ago and needs updating. As you can see it isn't responsive, user friendly or aesthetically pleasing.
 
-The main thing to do was make this site accessible to as many people across as many devices as possible.
+<br>
+## UX
+
+When starting this project I looked at the original website to gain an understanding of their strategy. It was at this time I conducted a content audit. Now I had a clear strategy and a complete overview of the content needed, I could start to scope ot the project.
+
+I then started to organise and group the content into logical categories and subjects. This was when I produced a site map and started to wireframe. I created wireframes for most device sizes, made sure no matter what device the user was on, the journey would be the same, simple, logical and overall pleasing experience.
+
+Once I was sure the project made sense and had all the content needed, I was able to design and build it. I chose colours matching the brand, making sure text was always legible.
 
 <br>
 
@@ -61,19 +69,18 @@ As Bootstrap 4 was out of beta, I decided to use it. I used it primarily for its
 
 ## Testing
 
-#### Human Testing
+#### Manual Testing
 
-The main tests that were carried out were by hands on use of the site. This included, making sure all links worked, it was easy to navigate and made sense to the average user. I also tested its responsiveness using googles developer tools and physically testing it on my mobile and tablet devices.
-
+I carried out various manual tests on the project. These included, physically testing all links on the site, Checking design and performance on a range of devices and device widths. I made sure I could navigate the site without having to use the back button. I used the network throttling tool in Chrome's dev tools to simulate various network speeds to make sure the site had at least an acceptable performance at lower speeds.
 <br>
 
 #### HTML Validator
 
-When I ran my code through the W3C HTNL validator, I realised I was using the \<img> tag wrong. I placed a closing tag throughout. I was able to rectify this mistake and commit the changes.
+When I ran my code through the W3C HTML validator, I realised I was using the \<img> tag wrong. I placed a closing tag throughout. I was able to rectify this mistake and commit the changes.
 
 <br>
 
 #### CSS Validator
 
-After submitting my site to the W3C CSS Validator, I realised for the box shadow property I had used vendor prefixes, The validator showed that they were unknown so I deleted them.
+After submitting my site to the W3C CSS Validator, I realised for the box shadow property I had used vendor prefixes, The validator showed that they were not needed so I deleted them.
 
